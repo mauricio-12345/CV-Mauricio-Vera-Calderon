@@ -1,4 +1,4 @@
-# 🧑‍💻 Descripción del CV – Mauricio Vera Calderón
+# 🧑‍💻 CV – Mauricio Vera Calderón
 
 Este proyecto presenta mi Currículum Vitae en formato HTML y CSS, diseñado con un estilo limpio y profesional.
 En él se detalla mi trayectoria en el área de Soporte Técnico, Redes, Bases de Datos y Desarrollo Web, destacando mis habilidades técnicas y experiencia docente.
