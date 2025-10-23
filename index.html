@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Mauricio Vera Calderón</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      background: #fff;
+      margin: 40px auto;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    h1 {
+      font-size: 26px;
+      margin-bottom: 5px;
+      color: #003366;
+    }
+    h2 {
+      color: #003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    h4 {
+      color: #003366;
+      margin-bottom: 8px;
+    }
+    p, li {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .contact {
+      font-size: 14px;
+      color: #555;
+    }
+    .section {
+      margin-top: 25px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .two-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .subsection {
+      margin-bottom: 15px;
+    }
+
+    /* Estilo para la foto */
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      border: 2px solid #003366;
+    }
+
+    /* Botón de impresión */
+    .print-btn {
+      background-color: #003366;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    .print-btn:hover {
+      background-color: #0055aa;
+    }
+
+    @media print {
+      .print-btn {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <button class="print-btn" onclick="window.print()">🖨️ Imprimir CV</button>
+
+  <div class="container">
+    <!-- FOTO DE PERFIL -->
+    <img src="IMG_20251022_212256 (1).jpg" alt="Foto de perfil de Mauricio Vera Calderón" class="profile-pic">
+
+    <h1>Mauricio Vera Calderón</h1>
+    <p class="contact">
+      Técnico en Sistemas y Redes · Soporte Técnico y Bases de Datos<br>
+      <strong>Email:</strong> mauricio.verac@example.com · 
+      <strong>Tel:</strong> +591 77097006 · 
+      <strong>Ciudad:</strong> Santa Cruz de la Sierra, Bolivia
+    </p>
+
+    <h2>Perfil</h2>
+    <p>
+      Técnico con experiencia en soporte informático, mantenimiento de equipos, cableado estructurado, instalación de redes y cámaras de seguridad. 
+      Con conocimientos en administración de bases de datos <strong>PostgreSQL</strong> y <strong>MySQL</strong>, además de manejo de comandos básicos en Linux. 
+      He desarrollado sistemas CRUD en <strong>PHP, HTML, CSS y JavaScript</strong>, aplicando diseño responsivo y buenas prácticas de programación.
+      Enfocado en la eficiencia técnica, la seguridad de sistemas y el soporte integral al usuario.
+    </p>
+
+    <h2>Habilidades Técnicas</h2>
+    <div class="two-columns">
+      <div>
+        <h4>Soporte / Infraestructura</h4>
+        <ul>
+          <li>Diagnóstico y mantenimiento de equipos</li>
+          <li>Instalación de software y sistemas operativos</li>
+          <li>Configuración de redes LAN/Wi-Fi</li>
+          <li>Soporte a usuarios y resolución de incidencias</li>
+          <li>Cableado estructurado y fibra óptica</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Bases de Datos / Linux</h4>
+        <ul>
+          <li>PostgreSQL y MySQL (creación, respaldo, consultas)</li>
+          <li>Comandos básicos en Linux</li>
+          <li>Gestión de archivos y permisos</li>
+          <li>Administración de usuarios y conexiones</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="two-columns section">
+      <div>
+        <h4>Programación y Desarrollo</h4>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>PHP (CRUD, formularios, sesiones)</li>
+          <li>C#, C++ y .NET Framework</li>
+          <li>Diseño responsivo con Bootstrap 5</li>
+          <li>Gestión de proyectos web</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Diseño y Ofimática</h4>
+        <ul>
+          <li>Diseño gráfico (Photoshop, Illustrator, Canva)</li>
+          <li>Ofimática avanzada (Word, Excel, PowerPoint, Access, Publisher)</li>
+          <li>Creación de materiales publicitarios y educativos</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h4>Metodologías y Documentación</h4>
+      <ul>
+        <li>Gestión de incidencias</li>
+        <li>Instalación estructurada de equipos</li>
+        <li>Elaboración de reportes técnicos</li>
+        <li>Documentación de procesos y manuales</li>
+      </ul>
+    </div>
+
+    <h2>Experiencia Profesional</h2>
+
+    <div class="subsection">
+      <strong>Profesor de Computación y Diseño Gráfico</strong><br>
+      <em>ITC – Instituto Tecnológico CECAP [2017 – 2025]</em>
+      <ul>
+        <li>Enseñanza de informática básica, ofimática y mantenimiento de PCs.</li>
+        <li>Soporte técnico en aulas y laboratorios.</li>
+        <li>Asistencia a docentes con herramientas digitales y resolución de fallas.</li>
+      </ul>
+    </div>
+
+    <div class="subsection">
+      <strong>Soporte Técnico y Redes</strong><br>
+      <em>AOD – Sistema y Telecomunicaciones [2018 – 2023]</em>
+      <ul>
+        <li>Reparación y mantenimiento preventivo/correctivo de computadoras.</li>
+        <li>Instalación y configuración de routers, puntos de acceso y cableado estructurado.</li>
+        <li>Soporte técnico y resolución de fallas de red.</li>
+      </ul>
+    </div>
+
+    <div class="subsection">
+      <strong>Diseño y Soporte para Marketing Agropecuario</strong><br>
+      <em>Revista Campo Agropecuario [2017 – 2018]</em>
+      <ul>
+        <li>Soporte en diseño gráfico y publicidad digital.</li>
+        <li>Mantenimiento de equipos de oficina.</li>
+        <li>Asistencia técnica en presentaciones y eventos.</li>
+      </ul>
+    </div>
+
+    <div class="subsection">
+      <strong>Técnico de Tendido de Fibra Óptica</strong><br>
+      <em>Miyatec – Sistema y Telecomunicaciones [2018 – 2019]</em>
+      <ul>
+        <li>Instalación y empalme de fibra óptica.</li>
+        <li>Mantenimiento y pruebas de conectividad.</li>
+        <li>Trabajo en campo y trazado de red.</li>
+      </ul>
+    </div>
+
+    <div class="subsection">
+      <strong>Auxiliar de Almacén y Ventas</strong><br>
+      <em>Ferretería Freddy [2014 – 2015]</em>
+      <ul>
+        <li>Organización y control de materiales e inventario.</li>
+        <li>Atención al cliente y asesoramiento técnico básico.</li>
+        <li>Apoyo en despacho y carga de productos.</li>
+      </ul>
+    </div>
+
+    <h2>Formación Académica</h2>
+    <ul>
+      <li><strong>Universitario en Ingeniería de Sistemas</strong> — UPDS (2022 – Actualidad)</li>
+      <li><strong>Universitario en Ingeniería en Redes y Telecomunicaciones</strong> — UAGRM</li>
+      <li><strong>Mantenimiento en Reparación de PC (Técnico Superior)</strong> — ITDS (2014)</li>
+      <li><strong>Operador Windows en Windows 7 (Técnico Superior)</strong> — ITDS (2014)</li>
+      <li><strong>Diseñador Gráfico (Técnico Superior)</strong> — ITDS (2017)</li>
+      <li><strong>Community Manager - Publicidad Digital</strong> — Edudiseño (2018)</li>
+      <li><strong>Taller de Imprenta</strong> — Multicrea (2019)</li>
+      <li><strong>Cableado Estructurado y Configuración de Recursos de Red</strong> — UAGRM Politécnica (2016)</li>
+      <li><strong>Mantenimiento y Reparación de Computadoras Windows 7, 8.1, 10</strong> — UAGRM Politécnica (2015)</li>
+      <li><strong>Conferencia de Seguridad Informática</strong> — UAGRM (2015)</li>
+      <li><strong>Educador Infanto Juvenil</strong> — AICRAD (Club Castillo)</li>
+      <li><strong>Conocimiento del Inglés:</strong> Nivel Medio — UAGRM</li>
+    </ul>
+
+    <h2>Datos Adicionales</h2>
+    <ul>
+      <li><strong>Estado civil:</strong> Soltero</li>
+      <li><strong>Licencia:</strong> Categoria (A)</li>
+      <li><strong>Disponibilidad:</strong> Inmediata - Tiempo completo</li>
+      <li><strong>Pretensión Salarial:</strong> Bs. 4500</li>
+      <li><strong>Idiomas:</strong> Español (nativo), Inglés (medio)</li>
+    </ul>
+  </div>
+</body>
+</html>
